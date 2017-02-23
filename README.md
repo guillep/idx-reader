@@ -34,4 +34,41 @@ The header (also called a magic number in the original description) is a big end
 The sizes in each dimension are 4-byte big endian integers.
 The data is stored like in a C array, i.e. the index in the last dimension changes the fastest.
 
-## Using this Library
+## Installation
+
+Evaluate the following metacello expression to load it in your Pharo environment.
+
+```smalltalk
+Metacello new
+  baseline: 'IdxReader';
+  repository: 'github://gpolito/idx-reader';
+  load.
+```
+
+## Usage
+
+An IdxReader works as a normal stream. You first create a reader on a binary file stream:
+
+```smalltalk
+reader := IdxReader onStream: (File named: 'path/to/your/idxfile') readStream.
+```
+
+And then you ask it for the next element:
+
+```smalltalk
+matrix := reader next.
+```
+
+The returned object is an array of arrays that depends on the file you're reading. For example, if your file contains a single dimensional data, then you will get an array with data. Likewise, if your file contains 2-dimensional data you will get an array of arrays with data.
+
+## What is implemented so far (and what is not)
+
+We already implemented:
+ - Unsigned byte reading
+
+This implementation still lacks support for 
+ - Signed byte reading
+ - Short integer reading
+ - integer reading
+ - float reading
+ - double reading
