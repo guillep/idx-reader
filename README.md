@@ -3,7 +3,7 @@ This package implements a reader for the IDX format written in Pharo.
 
 Idx is a format designed to store vectors and multi dimensional matrixes. This format is used by the MNIST dataset of handwritten digits (http://yann.lecun.com/exdb/mnist/).
 
-# Idx Format
+## Idx Format
 
 The following description of the format is taken from the original website (http://yann.lecun.com/exdb/mnist/).
 
@@ -34,4 +34,4 @@ The header (also called a magic number in the original description) is a big end
 The sizes in each dimension are 4-byte big endian integers.
 The data is stored like in a C array, i.e. the index in the last dimension changes the fastest.
 
-# Using this Library
+## Using this Library
