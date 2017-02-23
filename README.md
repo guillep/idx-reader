@@ -47,7 +47,7 @@ Metacello new
 
 ## Usage
 
-An IdxReader works as a normal stream. You first create a reader on a binary file stream:
+An IdxReader works as a stream. You first create a reader on a binary file stream:
 
 ```smalltalk
 reader := IdxReader onStream: (File named: 'path/to/your/idxfile') readStream.
