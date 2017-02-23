@@ -10,3 +10,6 @@ parseHeader
 	dataType := readDataType.
 	
 	dimensions := aStream next.
+	
+	dimensionSizes := (1 to: dimensions) collect: [ :index |
+		self parseNextDimensionSize ].

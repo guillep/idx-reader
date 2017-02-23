@@ -8,7 +8,8 @@
 	"instvars" : [
 		"aStream",
 		"dataType",
-		"dimensions"
+		"dimensions",
+		"dimensionSizes"
 	],
 	"name" : "IdxReader",
 	"type" : "normal"
