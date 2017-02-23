@@ -1,0 +1,4 @@
+setUp
+setUp
+	
+	self parseHeader.

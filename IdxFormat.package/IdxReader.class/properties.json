@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "GuillermoPolito 2/22/2017 23:07",
+	"super" : "Object",
+	"category" : "IdxFormat",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"aStream",
+		"dataType",
+		"dimensions"
+	],
+	"name" : "IdxReader",
+	"type" : "normal"
+}
