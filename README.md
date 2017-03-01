@@ -60,15 +60,3 @@ matrix := reader next.
 ```
 
 The returned object is an array of arrays that depends on the file you're reading. For example, if your file contains a single dimensional data, then you will get an array with data. Likewise, if your file contains 2-dimensional data you will get an array of arrays with data.
-
-## What is implemented so far (and what is not)
-
-We already implemented:
- - Unsigned byte reading
-
-This implementation still lacks support for 
- - Signed byte reading
- - Short integer reading
- - integer reading
- - float reading
- - double reading
