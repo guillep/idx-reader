@@ -1,4 +1,0 @@
-setUp
-setUp
-	
-	self parseHeader.

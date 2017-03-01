@@ -1,4 +1,0 @@
-accessing
-dimensionSizes
-	
-	^ dimensionSizes
