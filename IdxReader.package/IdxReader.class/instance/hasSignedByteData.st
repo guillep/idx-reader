@@ -1,4 +1,4 @@
 data-type
 hasSignedByteData
 	
-	^ dataType = 9
+	^ dataType isSignedByte

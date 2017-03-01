@@ -4,7 +4,9 @@
 	"category" : "IdxReader",
 	"classinstvars" : [ ],
 	"pools" : [ ],
-	"classvars" : [ ],
+	"classvars" : [
+		"Types"
+	],
 	"instvars" : [
 		"aStream",
 		"dataType",

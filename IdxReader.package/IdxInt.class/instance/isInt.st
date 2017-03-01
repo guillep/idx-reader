@@ -1,0 +1,4 @@
+testing
+isInt
+	
+	^ true

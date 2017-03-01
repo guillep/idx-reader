@@ -1,4 +1,4 @@
 reading
 readNextItem
 	
-	self hasUnsignedByteData ifTrue: [ ^ aStream next ].
+	^ dataType readNextFrom: aStream

@@ -1,4 +1,4 @@
 data-type
 hasIntData
 	
-	^ dataType = 11
+	^ dataType isInt

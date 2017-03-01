@@ -1,4 +1,4 @@
 data-type
 hasUnsignedByteData
 	
-	^ dataType = 8
+	^ dataType isUnsignedByte

@@ -7,7 +7,9 @@ parseHeader
 	
 	readDataType := aStream next.
 	self assert: (readDataType between: 8 and: 13).
-	dataType := readDataType.
+	dataType := self types
+		at: readDataType
+		ifAbsent: [ self error: ('TypeTag "{1}" not supported' format: { readDataType asString }) ].
 	
 	dimensions := aStream next.
 	

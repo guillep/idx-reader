@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "IdxType",
+	"category" : "IdxReader",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "IdxInt",
+	"type" : "normal"
+}

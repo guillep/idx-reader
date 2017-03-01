@@ -1,4 +1,4 @@
 data-type
 hasFloatData
 	
-	^ dataType = 12
+	^ dataType isFloat

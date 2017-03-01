@@ -1,4 +1,4 @@
-tests
+tests-reading
 testNextUnsignedByte
 
 	| stream matrix |

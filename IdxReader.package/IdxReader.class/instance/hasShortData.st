@@ -1,4 +1,4 @@
 data-type
 hasShortData
 	
-	^ dataType = 10
+	^ dataType isShort

@@ -1,4 +1,4 @@
-tests
+tests-reading
 testNotAtEnd
 
 	| stream |
