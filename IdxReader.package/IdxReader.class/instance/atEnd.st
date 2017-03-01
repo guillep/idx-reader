@@ -1,0 +1,4 @@
+testing
+atEnd
+	
+	^ aStream atEnd
