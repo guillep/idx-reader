@@ -41,7 +41,7 @@ Evaluate the following metacello expression to load it in your Pharo environment
 ```smalltalk
 Metacello new
   baseline: 'IdxReader';
-  repository: 'github://gpolito/idx-reader';
+  repository: 'github://guillep/idx-reader';
   load.
 ```
 
